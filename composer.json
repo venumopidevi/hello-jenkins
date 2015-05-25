@@ -1,0 +1,34 @@
+{
+    "name": "venumopidevi",
+    "description": "A meta package for the PHP Quality Assurance Toolchain tools required by the Template for Jenkins Jobs for PHP Projects, http://jenkins-php.org/",
+    "keywords": ["php", "qa", "tools", "jenkins"],
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Venu Gopal Mopidevi",
+            "homepage": "http://github.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+
+    "require": {
+	"phpunit/phpunit": "4.6.6",
+	"theseer/fxsl": "1.1.1",
+	"theseer/phpdox": "0.8.0",
+        "squizlabs/php_codesniffer": "1.4.6",
+	"phpmd/phpmd": "2.2.2",
+	"h4cc/phpqatools": "1.5.0",
+	"phploc/phploc": "2.1.1",
+	"sebastian/phpcpd": "2.0.2",
+	"phpdocumentor/phpdocumentor": "2.8.2",
+	"mayflower/php-codebrowser": "1.1.1",
+	"pdepend/pdepend": "2.0.6",
+	"pear/console_commandline": "dev-trunk",
+	"pear/log": "1.12.8",
+        "pear/pear_exception": "1.0-beta1",
+	"phing/phing": "2.10.1"
+    }
+}
